@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
+// ignore: avoid_web_libraries_in_flutter, unused_import
+import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:app_19_04_2022/inputpage.dart';
 
