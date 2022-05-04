@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_const_constructors
-// ignore: avoid_web_libraries_in_flutter, unused_import
+// ignore: avoid_web_libraries_in_flutter, unused_import, unnecessary_import
 import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -29,7 +29,7 @@ class Reusable extends StatelessWidget {
   Reusable({required this.colour, required this.content, required this.onPress});
   final Color colour;
   final Widget content;
-  final Function onPress;
+  final VoidCallback onPress;
 
   @override
   Widget build(BuildContext context) {
@@ -133,6 +133,7 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
+          
           Expanded(
             child: Reusable(
               colour: Color.fromARGB(255, 40, 40, 40),
@@ -159,6 +160,7 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
+          
           Container(
             color: Color.fromARGB(255, 118, 0, 59),
             margin: EdgeInsets.only(top: 10.0),
