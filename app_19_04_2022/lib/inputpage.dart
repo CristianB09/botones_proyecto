@@ -137,7 +137,7 @@ class _InputPageState extends State<InputPage> {
           Expanded(
             child: Reusable(
               colour: Color.fromARGB(255, 40, 40, 40),
-              content: ReusableIcon(icon: FontAwesomeIcons.mars, label: 'Male'),
+              content: ReusableIcon(icon: FontAwesomeIcons.mars, label: 'Male'), onPress: null,
             ),
           ),
           Expanded(
@@ -147,14 +147,14 @@ class _InputPageState extends State<InputPage> {
                   child: Reusable(
                     colour: Color.fromARGB(255, 40, 40, 40),
                     content: ReusableIcon(
-                        icon: FontAwesomeIcons.mars, label: 'Male'),
+                        icon: FontAwesomeIcons.mars, label: 'Male'), onPress: null,
                   ),
                 ),
                 Expanded(
                   child: Reusable(
                     colour: Color.fromARGB(255, 40, 40, 40),
                     content: ReusableIcon(
-                        icon: FontAwesomeIcons.mars, label: 'Male'),
+                        icon: FontAwesomeIcons.mars, label: 'Male'), onPress: null,
                   ),
                 ),
               ],
